@@ -1,0 +1,20 @@
+body{
+    color: white;
+    background: rgb(255, 192, 203);
+}
+.heading{
+    width: 80%;
+    font-size: 22%;
+}
+#camera{
+    border: 2px black;
+    width: 350px;
+    height: 300px;
+    transition-duration: 1s;
+}
+#camera:hover{
+    border-width: 10px;
+}
+.name_of_objects,#result_object_name,#result_object_object_accuracy{
+    color: rgb(255, 255, 0);
+}
